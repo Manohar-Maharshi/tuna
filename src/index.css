@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+.react-tabs__tab-list {
+  @apply !border-none;
+}
+.react-tabs__tab--selected {
+  @apply !border-none !rounded-none;
+}
+.react-tabs__tab-list {
+  @apply !space-x-2;
+}
+.rhap_container {
+  @apply !bg-transparent !border !border-base-300 !text-neutral-content;
+}
+.rhap_time {
+  @apply !text-neutral-content;
+}
+@tailwind utilities;
